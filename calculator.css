@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-color: #233b42;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+table{
+    width: 100%;
+    height: 60vh;
+    
+}
+
+td{
+    width: 25vh;
+    text-align: center;
+    font-size: 24px;
+    background-color: #31525B;
+    border-radius: 7.5px;
+}
+
+td:hover{
+    background-color: #97bac0;
+    cursor: grab;
+}
+
+#AC{
+    background-color: #ffa101;
+}
+
+#AC:hover{
+    background-color: #fdb73ec2;
+    cursor: grab;
+}
+
+
+#symbol{
+    background-color: #6e878b;
+}
+
+#symbol:hover{
+    background-color: #97bac0;
+    cursor: grab;
+}
+
+#result{
+    height: 25vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    margin-right: 5vh;
+    font-size: 62px;
+ 
+}
+
+#table2{
+    height: 15vh;
+}
+#enter, #Del{
+    background-color: #ffa101;
+}
+
+#enter:hover{
+    background-color: #fdb73ec2;
+    cursor: grab;
+}
+
+#Del:hover{
+    background-color: #fdb73ec2;
+    cursor: grab;
+}
+
